@@ -63,4 +63,7 @@ git remote add origin https://github.com/NoahFu09/web110a.git
 ~~~
 
 複製現有github上專案資料
->git clone <https://github.com/NoahFu09/NoahFu09.github.io>
+
+~~~bash
+git clone https://github.com/NoahFu09/NoahFu09.github.io
+~~~
