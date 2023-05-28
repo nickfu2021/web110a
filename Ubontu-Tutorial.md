@@ -1,4 +1,4 @@
-# Ubontu教程
+# Ubontu 教程
 
 ---
 
@@ -16,18 +16,19 @@
 
 **step1** 開啟 VirtualBox
 
-![圖片介紹](./images/Ubontu教程/01.png)
+![圖片介紹](./img/Ubontu教程/01.png)
 
 **step2** 新增機器
 
-![圖片介紹](./images/Ubontu教程/02.png)
+![圖片介紹](./img/Ubontu教程/02.png)
 
 **step3** 名稱與作業系統
 
-![圖片介紹](./images/Ubontu教程/02.png)
+![圖片介紹](./img/Ubontu教程/02.png)
 
-
+```bash
 sudo apt-key list | \
  grep "expired: " | \
  sed -ne 's|pub .*/\([^ ]*\) .*|\1|gp' | \
  xargs -n1 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys
+```
