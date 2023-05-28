@@ -6,7 +6,7 @@
 
 為了不用每次使用VS Code Github 功能都要登入，因此可先建立ssh憑證，之後就一勞永逸
 
-1.首先輸入指令來產生 key
+1.首先輸入指令來產生 `key`
 
 ~~~bash
  ssh-keygen
@@ -26,7 +26,7 @@
 
 ## Build Project To Github
 
-1.VS Code 可安裝 gitignore 套件 _by_ CodeZombie
+1.VS Code 可安裝 `gitignore` 套件 _by_ `CodeZombie`
 
 2.在d槽建立一個project資料夾，並將您的專案(例：web110a)複製到project內
 
@@ -60,6 +60,18 @@ git remote add origin https://github.com/NoahFu09/web110a.git
 
 ~~~bash
  git push -u origin master
+~~~
+
+* 查看目前遠端連線倉庫
+
+~~~bash
+git remote -v
+~~~
+
+* 更換Git遠端伺服器位網址
+
+~~~bash
+git remote set-url origin https://github.com/NoahFu09/myblog.git
 ~~~
 
 複製現有github上專案資料
